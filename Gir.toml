@@ -1,0 +1,14 @@
+[options]
+library = "Secret"
+version = "1"
+min_cfg_version = "0.20.2"
+target_path = "."
+work_mode = "normal"
+generate_safety_asserts = true
+deprecate_by_min_version = true
+single_version_file = true
+
+generate = [
+  "Secret.Schema"
+]
+
