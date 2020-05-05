@@ -2,6 +2,7 @@
 library = "Secret"
 version = "1"
 min_cfg_version = "0.20.2"
+girs_dir = "/usr/share/gir-1.0/"
 target_path = "."
 work_mode = "normal"
 generate_safety_asserts = true
@@ -9,6 +10,7 @@ deprecate_by_min_version = true
 single_version_file = true
 
 generate = [
-  "Secret.Schema"
+  "Secret.Schema",
+  "Secret.SchemaFlags"
 ]
 

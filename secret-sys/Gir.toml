@@ -2,6 +2,7 @@
 library = "Secret"
 version = "1"
 target_path = "."
+girs_dir = "/usr/share/gir-1.0/"
 work_mode = "sys"
 min_cfg_version = "0.20.2"
 
