@@ -15,9 +15,7 @@ generate = [
   "Secret.SchemaFlags",
   "Secret.SchemaType",
   "Secret.SearchFlags",
-  "Secret.Value"
 ]
-
 
 manual = [
     "Gio.Cancellable",
@@ -25,4 +23,6 @@ manual = [
     "Gio.AsyncResult",
     "GLib.DestroyNotify",
     "GLib.Error",
+    "GLib.HashTable",
+    "GLib.Value"
 ]
