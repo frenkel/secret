@@ -10,7 +10,19 @@ deprecate_by_min_version = true
 single_version_file = true
 
 generate = [
+  "Secret.Retrievable",
   "Secret.Schema",
-  "Secret.SchemaFlags"
+  "Secret.SchemaFlags",
+  "Secret.SchemaType",
+  "Secret.SearchFlags",
+  "Secret.Value"
 ]
 
+
+manual = [
+    "Gio.Cancellable",
+    "Gio.AsyncReadyCallback",
+    "Gio.AsyncResult",
+    "GLib.DestroyNotify",
+    "GLib.Error",
+]
